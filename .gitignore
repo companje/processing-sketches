@@ -7,5 +7,4 @@ application.windows64
 application.macosx
 build-tmp/
 
-
-Micro3D/Micro3D_test/data/diamond.gcode
+*.gcode
