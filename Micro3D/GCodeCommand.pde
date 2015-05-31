@@ -1,3 +1,8 @@
+//By Rick Companje, Doodle3D, May 31st 2015
+//This GCodeCommand class is an partial implementation of Repetier's binary GCode format.
+//It is inspired by GCode.cs from the Repetier-Host project.
+//https://github.com/repetier/Repetier-Host/blob/master/src/RepetierHost/model/GCode.cs
+
 class GCodeCommand {
   boolean comment = false;
   boolean hasN,hasM,hasG,hasX,hasY,hasZ,hasE,hasF,hasT,hasS,hasP,hasI,hasJ,hasR,hasD,hasText;
