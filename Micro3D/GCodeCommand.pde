@@ -1,7 +1,19 @@
-//By Rick Companje, Doodle3D, May 31st 2015
-//This GCodeCommand class is an partial implementation of Repetier's binary GCode format.
-//It is inspired by GCode.cs from the Repetier-Host project.
-//https://github.com/repetier/Repetier-Host/blob/master/src/RepetierHost/model/GCode.cs
+/*
+  Micro3D-controller-experiment.
+  Copyright (c) Rick Companje, Doodle3D, June 5th 2015
+  Licenced under GPLv3 licence.
+  http://www.doodle3d.com
+  
+  This is a Processing project to control your Micro3D by writing your own code.
+  You need to download the Processing IDE from Processing.org.
+
+  This code can be used to communicate with your Micro3D Printer (printm3d.com).
+  It is an unofficial unfinished project and should only be used for experiments.
+  You might break the warrenty of your Micro3D printer. Use this code at your own risk.
+
+  The GCodeCommand class is inspired by GCode.cs from the Repetier-Host project.
+  https://github.com/repetier/Repetier-Host/blob/master/src/RepetierHost/model/GCode.cs
+*/
 
 class GCodeCommand {
   boolean comment = false;
