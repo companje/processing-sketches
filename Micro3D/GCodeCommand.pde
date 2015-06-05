@@ -16,8 +16,8 @@
 */
 
 class GCodeCommand {
-  boolean comment = false;
   boolean hasN,hasM,hasG,hasX,hasY,hasZ,hasE,hasF,hasT,hasS,hasP,hasI,hasJ,hasR,hasD,hasText;
+  boolean isComment = false;
   boolean isBin = true;
   boolean isV2 = true;
   float x,y,z,e,f,i,j,r;
@@ -38,7 +38,7 @@ class GCodeCommand {
     }
     cmd = trim(cmd);
     if (cmd.length()==0) {
-      comment = true;
+      isComment = true;
       return;
     }
 
