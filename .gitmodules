@@ -1,0 +1,3 @@
+[submodule "Micro3D"]
+	path = Micro3D
+	url = https://github.com/companje/Micro3D-Doodle3D.git
