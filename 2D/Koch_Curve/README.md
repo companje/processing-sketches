@@ -1,7 +1,6 @@
 # Koch Curve
 
-Copyright (c) Rick Companje, 2007-01-18
-Licenced under GPLv3 licence. http://www.companje.nl
+Copyright (c) Rick Companje, 2007-01-18. Licenced under GPLv3 licence. http://www.companje.nl
 
 https://en.wikipedia.org/wiki/Koch_snowflake
 
@@ -40,4 +39,9 @@ void draw() {
   
   if (++gen>5) gen=0;
 }
+```
+
+The animated GIF was made with the following `ffmpeg` command:
+```
+ffmpeg -r 2 -i screen-%04d.tif -y kochcurve.gif
 ```
