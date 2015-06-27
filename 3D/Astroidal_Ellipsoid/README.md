@@ -2,7 +2,7 @@
 
 Copyright (c) Rick Companje, 2006-01-06. Licenced under GPLv3 licence. http://www.companje.nl
 
-http://mathworld.wolfram.com/AstroidalEllipsoid.html
+> "... the surface which is the inverse of the 'ellipsoid' in the sense that it 'goes in' where the ellipsoid 'goes out'" http://mathworld.wolfram.com/AstroidalEllipsoid.html
 
 ![](Astroidal_Ellipsoid.gif)
 
