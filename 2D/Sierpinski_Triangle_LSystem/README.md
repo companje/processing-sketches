@@ -1,6 +1,5 @@
 # Sierpinski Triangle (using L-System)
-//by Rick Companje
-//2007-01-18
+by Rick Companje 2007-01-18
 
 Copyright (c) Rick Companje, 2007-01-18. Licenced under GPLv3 licence. http://www.companje.nl
 
