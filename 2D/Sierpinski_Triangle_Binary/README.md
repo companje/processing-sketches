@@ -1,4 +1,4 @@
-# Sierpinski triangle (in logic) with just 3 lines of code 
+# Sierpinski triangle (using binary logic) with just 3 lines of code 
 //by Rick Companje
 //2007-01-18
 
@@ -6,7 +6,7 @@ Copyright (c) Rick Companje, 2007-01-18. Licenced under GPLv3 licence. http://ww
 
 https://en.wikipedia.org/wiki/Sierpinski_triangle
 
-![](Sierpinski_Triangle.png)
+![](Sierpinski_Triangle_Binary.png)
 
 ```Processing
 void setup() {
