@@ -53,7 +53,7 @@ void draw() {
 }
 ```
 
-The animated GIF was made with the saveFrame function followed by the following `ffmpeg` command:
+The animated GIF was made with the `saveFrame` function followed by the following `ffmpeg` command:
 ```
 ffmpeg -i screen-%04d.tif LSystems_Tree.gif
 ```
