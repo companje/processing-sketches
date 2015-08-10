@@ -1,6 +1,4 @@
 # Sierpinski triangle (using binary logic) with just 3 lines of code 
-//by Rick Companje
-//2007-01-18
 
 Copyright (c) Rick Companje, 2007-01-18. Licenced under GPLv3 licence. http://www.companje.nl
 
