@@ -1,12 +1,12 @@
 # L-Systems Tree in 3D
 
-Copyright (c) Rick Companje, 2015-08-10. Licenced under GPLv3 licence. http://www.companje.nl
-
 Inspired by lsys3D12 by Eric Rosenbaum. Also some great stuff on L-Systems in Chapter 8 of Daniel Shiffman's Nature of Code book. And ofcourse the 'The Alogirthmic Beauty of Plants' book.
 
 https://en.wikipedia.org/wiki/L-system
 
 ![](LSystems_Tree.gif)
+
+Created by Rick Companje, 2015-08-10. Licenced under GPLv3 licence. http://www.companje.nl
 
 ```Processing
 // L-System Tree in 3D
@@ -57,3 +57,13 @@ The animated GIF was made with the `saveFrame` function followed by the followin
 ```
 ffmpeg -i screen-%04d.tif LSystems_Tree.gif
 ```
+
+# L-Systems Tree in 3D created with BeetleBlocks
+Today August 11, 2015 I attended the BeetleBlocks Masterclass by Eric Rosenbaum (MIT) at Waag Society in Amsterdam.
+Even though I had never really used BeetleBlocks (nor Scratch or Snap! before) I managed to port the above L-Systems visualization of the 3D tree.
+
+![](LSystems_Tree_in_BeetleBlocks.png)
+
+Michael Lodi (Italy) and I managed to 3D-print the first L-System ever made in BeetleBlocks on the Ultimaker 2 GO!
+
+![](LSystems_Tree_in_BeetleBlocks_Ultimaker2go.jpg)
